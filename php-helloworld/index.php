@@ -1,6 +1,11 @@
 <?php
-print "ღ♪*•.¸¸.•*¨¨*•.¸.•*¨¨*•.¸¸.•*•♪ღ♪
-ღ♪░H░A░P░P░Y░ B░I░R░T░H░D░A░Y░♪ღ
-KICHUNA
-•♪ღ♪*•.¸¸.•*¨¨*••*¨¨*•.¸¸.•*•♪ღ♪.\n";
-?>
+$string = '';
+for ($i = 0; $i < 4; $i++) {
+    $string .= "Happy birthday ";
+    if ($i != 2) {
+        $string .= "to you!\n";
+    } else {
+        $string .= "dear Krishna kudarvalli %s!\n";
+    }
+}
+print sprintf($string, 'name');
