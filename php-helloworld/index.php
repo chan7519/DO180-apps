@@ -5,7 +5,7 @@ for ($i = 0; $i < 4; $i++) {
     if ($i != 2) {
         $string .= "to you!\n";
     } else {
-        $string .= "dear Krishna kudarvalli %s!\n";
+        $string .= "dear %s!\n";
     }
 }
-print sprintf($string, 'name');
+print sprintf($string, 'ESTHEREE');
